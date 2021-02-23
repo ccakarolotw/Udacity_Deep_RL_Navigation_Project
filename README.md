@@ -44,6 +44,8 @@ Q' is the target Q network.
 - optimizer: Adam with learning rate 5E-4
 - Q' is update with soft update after each update of Q (Q'_ parameter = (1-tau)* Q'_ parameter + tau* Q_ parameter)
 - tau: 1E-3
+- Batch_size: 64
+- Hidden_dim: 64
 ## Results
 The environment is solved in 453 episodes.
 
