@@ -22,3 +22,5 @@ activate drlnd`
 ## Results
 The environment is solved in 453 episodes.
 
+![Training score](https://github.com/ccakarolotw/Udacity_Deep_RL_Navigation_Project/blob/main/train_score.png)
+
