@@ -20,7 +20,7 @@ activate drlnd`
 3. Download Unity environment and place it in the same folder as the jupyter notebook `Navigation.ipynb`
 
 ## DQN Agent
-The state-action value function (Q) is represented by neural network (DQN) with 3 fully connected layers
+The state-action value function (Q) is represented by neural network (DQN) with 3 fully connected layers. The model weight is saved in `checkpoint.pth`
 
 ```
 x = nn.Linear(state_dim,hidden_dim)(state)
