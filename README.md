@@ -1,5 +1,5 @@
 # Udacity_Deep_RL_Navigation_Project
-This project uses deep Q network to solve Udacity Deep Reinforcement Learning class's Unity Banana environment.The deep Q network agent is implemented based on Pytorch in jupyter notebook. The code is in PyTorch (v0.4) and Python 3. 
+This project uses deep Q network to solve Udacity Deep Reinforcement Learning class's Unity Banana environment.The deep Q network agent is implemented based on Pytorch in `Navigation.ipynb`. The code is in PyTorch (v0.4) and Python 3. 
 
 ## The Unity Banana Environment
 ![Image of Unity Banana environment](https://github.com/ccakarolotw/Udacity_Deep_RL_Navigation_Project/blob/main/banana.gif)
@@ -18,3 +18,5 @@ activate drlnd`
 `conda install pytorch=0.4.0 -c pytorch`
 
 3. Download Unity environment and place it in the same folder as the jupyter notebook `Navigation.ipynb`
+
+## Results
