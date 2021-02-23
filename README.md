@@ -39,11 +39,11 @@ Q(state, action) = reward + GAMMA* max(Q'(next_state,))
 Q' is the target Q network.
 
 ### Hyperparameters
-epsilon: starts from 1 and is multiplied by 0.99 after each action taken and then fixed at 0.01.
-GAMMA: 0.99
-optimizer: Adam with learning rate 5E-4
-Q' is update with soft update after each update of Q (Q'_ parameter = (1-tau)* Q'_ parameter + tau* Q_ parameter)
-
+- epsilon: starts from 1 and is multiplied by 0.99 after each action taken and then fixed at 0.01.
+- GAMMA: 0.99
+- optimizer: Adam with learning rate 5E-4
+- Q' is update with soft update after each update of Q (Q'_ parameter = (1-tau)* Q'_ parameter + tau* Q_ parameter)
+- tau: 1E-3
 ## Results
 The environment is solved in 453 episodes.
 
