@@ -17,4 +17,4 @@ activate drlnd`
 
 `conda install pytorch=0.4.0 -c pytorch`
 
-3.
+3. Download Unity environment and place it in the same folder as the jupyter notebook `Navigation.ipynb`
