@@ -20,3 +20,5 @@ activate drlnd`
 3. Download Unity environment and place it in the same folder as the jupyter notebook `Navigation.ipynb`
 
 ## Results
+The environment is solved in 453 episodes.
+![Training result](https://github.com/ccakarolotw/Udacity_Deep_RL_Navigation_Project/blob/main/score.png)
